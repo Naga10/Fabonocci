@@ -19,7 +19,6 @@ namespace Fibonacci_series
                 Console.Write(" "+b);
                 temp = b + a;
                 a = b;
-
                 b = temp;
             }
             Console.ReadLine();
